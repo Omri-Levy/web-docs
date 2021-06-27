@@ -29,3 +29,4 @@ const serveCommand = new Command()
 	})
 
 export {serveCommand};
+
