@@ -1,6 +1,6 @@
 {
   "name": "@web-docs/cli",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -19,11 +19,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@web-docs/local-client": "^1.0.11"
+    "@web-docs/local-client": "^1.0.12"
   },
   "devDependencies": {
     "@types/node": "^14.14.22",
-    "@web-docs/local-api": "^1.0.11",
+    "@web-docs/local-api": "^1.0.12",
     "commander": "^7.0.0",
     "esbuild": "0.8.26",
     "typescript": "^4.1.3"
