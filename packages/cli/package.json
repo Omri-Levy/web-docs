@@ -19,14 +19,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@web-docs/local-client": "^1.0.7"
+    "@web-docs/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^15.12.4",
-    "@web-docs/local-api": "^1.0.7",
-    "commander": "^8.0.0",
+    "@web-docs/local-api": "^1.0.0",
+    "@types/node": "^14.14.22",
+    "commander": "^7.0.0",
     "esbuild": "0.8.26",
-    "typescript": "^4.3.4"
+    "typescript": "^4.1.3"
   },
   "gitHead": "ccacaf5d0d14866a0f3cad38541ae73d50efb636"
 }
