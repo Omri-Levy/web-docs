@@ -28,8 +28,6 @@ const createCellsRouter = (filename: string, dir: string) => {
 				throw err;
 			}
 		}
-
-		res.status(200).send({status: `OK`});
 	});
 
 	router.post(`/cells`, async (req, res) => {
@@ -44,3 +42,4 @@ const createCellsRouter = (filename: string, dir: string) => {
 }
 
 export {createCellsRouter};
+
