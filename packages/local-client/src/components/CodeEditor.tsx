@@ -53,7 +53,7 @@ const CodeEditor: FunctionComponent<Props> = ({initialValue, onChange}) => {
 			useTabs: false,
 			semi: true,
 			singleQuote: true,
-		}).replace(/\n/, ``);
+		}).replace(/\n$/, ``);
 
 		editorRef.current.setValue(formatted);
 	};
